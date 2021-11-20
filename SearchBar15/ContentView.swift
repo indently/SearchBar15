@@ -29,6 +29,7 @@ struct ContentView: View {
         }
     }
     
+    // Filter countries
     var countries: [String] {
         // Make countries lowercased
         let lcCountries = listOfCountry.map { $0.lowercased() }
